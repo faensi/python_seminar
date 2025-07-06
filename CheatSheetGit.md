@@ -51,4 +51,17 @@ git status
 - **GitHub** (or similar providers like GitLab, Bitbucket) is an online service that hosts your code repositories and makes collaboration easy. It is not Git itself, but a platform that uses Git.
 - You use Git to manage your code, and GitHub to share it online and work with others.
 
+---
+
+## Common Git Commands
+
+| Command                        | Description                                 |
+|-------------------------------|---------------------------------------------|
+| `git add <file>`               | Stage changes for the next commit           |
+| `git commit -m "message"`      | Save your staged changes with a message     |
+| `git pull`                     | Get the latest changes from the server      |
+| `git push`                     | Upload your commits to the server           |
+| `git branch`                   | List all branches in the repository         |
+| `git branch <name>`            | Create a new branch                        |
+
 For more, see the official [Git Book](https://git-scm.com/book/en/v2).
